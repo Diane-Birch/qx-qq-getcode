@@ -20,7 +20,7 @@ if (url.includes("gate-obt.nqf.qq.com/prod/ws") && url.includes("code=")) {
 
         // 同时发本地通知（最直接的方式）
         const notifyTitle = "QQ农场 code 已捕获";
-        const notifyBody = `code = ${code}\n\n已保存，可以拿去挂了周哥！🤩`;
+        const notifyBody = `code = ${code}\n\n已保存，可以拿去挂了哥们！🤩`;
         
         $notify(notifyTitle, "", notifyBody);
 
